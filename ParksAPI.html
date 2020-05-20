@@ -13,8 +13,13 @@
       <h1>NPS Park Search</h1>
 
       <form id="js-form">
-        <label for="search-term">Search term</label>
-        <input type="text" name="search-term" id="js-search-term" required />
+        <label for="search-state">Search by state - two-letter code only</label>
+        <input type="text" name="search-state" id="js-search-state" required />
+        <br />
+
+        <label for="search-term">Search term -ie "lake" OPTIONAL</label>
+        <input type="text" name="search-term" id="js-search-term" />
+        <br />
 
         <label for="max-results">Maximum results to return</label>
         <input
